@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XSS Test</title>
+</head>
+<body>
+    <h1>Welcome to the XSS Demo Page</h1>
+    <p id="message">This is a simple XSS test.</p>
+
+    <!-- XSS Vulnerability: Script injection -->
+    <script>
+        alert('XSS Pop-up: This is an XSS vulnerability.');
+    </script>
+</body>
+</html>
